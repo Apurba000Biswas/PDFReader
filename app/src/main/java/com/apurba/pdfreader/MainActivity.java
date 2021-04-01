@@ -77,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public void readButtonOnClick(View view){
         selectPdfFromGallery();
     }
